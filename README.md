@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AppCV
 
-## Getting Started
+AppCV is a comprehensive CV generator optimized for ATS (Applicant Tracking Systems) to help job seekers create professional resumes that stand out in the digital job market.
 
-First, run the development server:
+## Project Description
+AppCV simplifies the resume-building process by providing users with templates and guidance tailored to meet ATS requirements. It ensures that resumes are easily parsed by software used by recruiters while also being visually appealing.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Main Features
+- User-friendly interface for easy navigation.
+- ATS-compliant templates.
+- Customizable sections to highlight skills and experience.
+- Export options in multiple formats (PDF, DOCX).
+- Ability to save and edit resumes later.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technology Stack
+- Frontend: React.js
+- Backend: Node.js, Express
+- Database: MongoDB
+- Hosting: AWS / Heroku
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Quick Start Guide
+1. Clone the repository using `git clone https://github.com/XavierDevx/AppCV.git`.
+2. Navigate to the project directory `cd AppCV`.
+3. Install dependencies with `npm install`.
+4. Run the application using `npm start`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## How to Use
+- Fill in your personal information.
+- Choose a template that suits your style.
+- Input your professional experiences, education, and skills.
+- Export your CV in your desired format.
 
-## Learn More
+## Deployment Instructions
+For deployment on AWS or Heroku, ensure that you have the necessary API keys and database connections configured in the environment variables. You can follow the detailed deployment guide provided in the `DEPLOYMENT.md` file in this repository.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contribution Guidelines
+We welcome contributions! Please read our `CONTRIBUTING.md` file to learn how to get started, submit issues, and collaborate with our team.
